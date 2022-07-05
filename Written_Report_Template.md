@@ -8,16 +8,16 @@ Our fictional friend **Louise** wants to get a better idea of how her play might
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
-1. I performed my analysis of **Outcomes** based on **Launch Date** by first creating a pivot table of the data in the Kickstarter worksheet. 
-2. I filtered the data by **parent category** and by **years** because I want to see how specifically the 'theater' category did over a period of time. I used the 'outcomes' data for my columns, and 'Date Created Conversion' as data for my rows, and populated the intersection of this data with the outcome values. 
+1. I performed my analysis of Outcomes based on Launch Date by first creating a pivot table of the data in the Kickstarter worksheet. 
+2. I filtered the data by parent category and by years because I want to see how specifically the 'theater' category did over a period of time. I used the 'outcomes' data for my columns, and 'Date Created Conversion' as data for my rows, and populated the intersection of this data with the outcome values. 
 3. This still gives me data for all parent categories, so I needed to filter Parent Categories on 'theater'.
 4. Per the Challenge instructions, I needed to sort the outcomes of the pivot table in descending order as well.
-5. I was then able to create a line chart of the pivot table data to represent the *Count of Theater Outcomes Based on the Launch Month*.
+5. I was then able to create a line chart of the pivot table data to represent the Count of Theater Outcomes Based on the Launch Month.
 
 ![Count of Theater Outcomes based on Launch Month Line Chart](/resources/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
-1. I performed my analysis of **Outcomes (of Plays)** based on **Monetary Goal of the Kickstarter** by creating a table of data derived from the 'Kickstarter' worksheet.
+1. I performed my analysis of Outcomes (of Plays) based on Monetary Goal of the Kickstarter by creating a table of data derived from the 'Kickstarter' worksheet.
     - This table needed to include:
       - the number of successful/failed/canceled outcomes (using the `COUNTIF` function),
       - the sum of the total projects based on their outcomes (using the `SUM` function),
@@ -47,4 +47,4 @@ A challenge that I came across occurred during my analysis of Theater Outcomes b
 	- Some limitations of the data set are that we aren't able to explain why Theater Kickstarters launched during the month of May were so successful, we only know that that month had the highest number of successes. Similarly, we are also not able to explain why Theater Kickstarters launched during that month also had the highest percentage of failure. This is because there is not metric or data to determine how popular the individual plays were.
 
 - What are some other possible tables and/or graphs that we could create?
-	- To help **Louise**, we could create a table that measures the percentage of successful/failed/canceled plays based on data from the Date Created Conversion date and Date Ended Conversion data. This would show the success/failure/cancel rate of plays based on how long they were available.
+	- To help **Louise**, we could create a table that measures the percentage of successful/failed/canceled plays based on data from the Date Created Conversion date and Date Ended Conversion data. This would show the success/failure/cancel rate of plays based on how long they were available for attending to the public.
