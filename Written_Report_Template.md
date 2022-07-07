@@ -45,6 +45,7 @@ A challenge that I came across occurred during my analysis of Theater Outcomes b
 	- I can conclude that the highest percentage of successful plays had a goal of <$1,000.
 - What are some limitations of this dataset?
 	- Some limitations of the data set are that we aren't able to explain why Theater Kickstarters launched during the month of May were so successful, we only know that that month had the highest number of successes. Similarly, we are also not able to explain why Theater Kickstarters launched during that month also had the highest percentage of failure. This is because there is not metric or data to determine how popular the individual plays were.
+	- Dennis Kreger also pointed out that all of the data for the canceled plays show a monetary value of $0, but had we known what the Kickstarter goals for those plays were, we could have calculated a trend in the data and made an analysis based on them. It may have been helpful in determining why those plays were canceled, and could have helped **Louise**.
 
 - What are some other possible tables and/or graphs that we could create?
 	- To help **Louise**, we could create a table that measures the percentage of successful/failed/canceled plays based on data from the Date Created Conversion date and Date Ended Conversion data. This would show the success/failure/cancel rate of plays based on how long they were available for attending to the public.
