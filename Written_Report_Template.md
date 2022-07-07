@@ -36,6 +36,8 @@ Our fictional friend **Louise** wants to get a better idea of how her play might
 ### Challenges and Difficulties Encountered
 A challenge that I came across occurred during my analysis of Theater Outcomes by Launch Date. When I was creating the pivot table for the data, some of my row labels for the Date Created Conversion included data that did not fit under any of the month filters - I have a (blank) category to filter by which I did not know where it came from, as all of the dates in my data table from the Kickstarter worksheet have values for them. Thankfully I was able to just filter them out without affecting my data and analysis any meaningful way.
 
+I've also found that between some of my classmates, there was a discrepancy between my total number of plays for the Outcomes Based on Goals and their total. I was not accounting for 1 play, and I found this out from Dennis Kreger and Jennifer Reyes. I went back and found that I had been calculating my Goal filters incorrectly! I For example, I used `=COUNTIFS(...">=1000",..."<4999")` instead of `=COUNTIFS(...">=1000",..."<5000")`. I was going to the wrong upper limit on all of them. This has since been fixed and my total number of plays is correct.
+
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
@@ -45,7 +47,7 @@ A challenge that I came across occurred during my analysis of Theater Outcomes b
 	- I can conclude that the highest percentage of successful plays had a goal of <$1,000.
 - What are some limitations of this dataset?
 	- Some limitations of the data set are that we aren't able to explain why Theater Kickstarters launched during the month of May were so successful, we only know that that month had the highest number of successes. Similarly, we are also not able to explain why Theater Kickstarters launched during that month also had the highest percentage of failure. This is because there is not metric or data to determine how popular the individual plays were.
-	- Dennis Kreger also pointed out that all of the data for the canceled plays show a monetary value of $0, but had we known what the Kickstarter goals for those plays were, we could have calculated a trend in the data and made an analysis based on them. It may have been helpful in determining why those plays were canceled, and could have helped **Louise**.
+	- Dennis Kreger also pointed out that all of the data for the canceled plays show a monetary value of $0, but had we known what the Kickstarter goals for those plays were, we could have calculated a trend in the data and made an analysis based on them. It may have been helpful in determining why those plays were canceled, and could have helped **Louise**. Not only this, but he discovered that there is a discrepancy between the number of plays from the Outcomes Based on Goals worksheet and the total number of plays that there should be, minus the plays with a "live" outcome.
 
 - What are some other possible tables and/or graphs that we could create?
 	- To help **Louise**, we could create a table that measures the percentage of successful/failed/canceled plays based on data from the Date Created Conversion date and Date Ended Conversion data. This would show the success/failure/cancel rate of plays based on how long they were available for attending to the public.
