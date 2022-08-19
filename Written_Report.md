@@ -1,4 +1,4 @@
-# Challenge 1, Deliverabale 3 - Kickstarting with Excel
+# Challenge 1, Deliverable 3 - Kickstarting with Excel
 
 ## Overview of Project
 
