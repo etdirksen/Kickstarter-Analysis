@@ -1,6 +1,4 @@
-# Kickstarting with Excel
-
-## Overview of Project
+## Overview
 
 ### Purpose
 The purpose of this analysis is to compare the outcomes of kickstarters that are plays based on their launch date, to kickstarters that are plays based on their goal amount.
