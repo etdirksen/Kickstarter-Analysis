@@ -3,7 +3,7 @@
 ## Overview of Project
 
 ### Purpose
-Our fictional friend **Louise** wants to get a better idea of how her play might perform compared to other plays based on similar and differing criteria. The purpose of this analysis is to compare the outcomes of kickstarters that are plays based on their launch date to kickstarters that are plays based on their goal amount.
+The purpose of this analysis is to compare the outcomes of kickstarters that are plays based on their launch date, to kickstarters that are plays based on their goal amount.
 
 ## Analysis and Challenges
 
